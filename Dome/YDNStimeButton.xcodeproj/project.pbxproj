@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC95FAF91F78E3D9004D73DA /* YDNStimeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC95FAF81F78E3D9004D73DA /* YDNStimeButton.m */; };
+		FCFF70861F74E0A000E5E879 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF70851F74E0A000E5E879 /* main.m */; };
+		FCFF70891F74E0A000E5E879 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF70881F74E0A000E5E879 /* AppDelegate.m */; };
+		FCFF708C1F74E0A000E5E879 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF708B1F74E0A000E5E879 /* ViewController.m */; };
+		FCFF708F1F74E0A000E5E879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFF708D1F74E0A000E5E879 /* Main.storyboard */; };
+		FCFF70911F74E0A000E5E879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFF70901F74E0A000E5E879 /* Assets.xcassets */; };
+		FCFF70941F74E0A000E5E879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFF70921F74E0A000E5E879 /* LaunchScreen.storyboard */; };
+		FCFF709F1F74E0A000E5E879 /* YDNStimeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF709E1F74E0A000E5E879 /* YDNStimeButtonTests.m */; };
+		FCFF70AA1F74E0A000E5E879 /* YDNStimeButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF70A91F74E0A000E5E879 /* YDNStimeButtonUITests.m */; };
+		FCFF70C61F75190E00E5E879 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF70C51F75190E00E5E879 /* ViewController2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCFF709B1F74E0A000E5E879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFF70791F74E0A000E5E879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFF70801F74E0A000E5E879;
+			remoteInfo = YDNStimeButton;
+		};
+		FCFF70A61F74E0A000E5E879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFF70791F74E0A000E5E879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFF70801F74E0A000E5E879;
+			remoteInfo = YDNStimeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC95FAF71F78E3D9004D73DA /* YDNStimeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNStimeButton.h; sourceTree = "<group>"; };
+		FC95FAF81F78E3D9004D73DA /* YDNStimeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDNStimeButton.m; sourceTree = "<group>"; };
+		FCFF70811F74E0A000E5E879 /* YDNStimeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDNStimeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFF70851F74E0A000E5E879 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCFF70871F74E0A000E5E879 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCFF70881F74E0A000E5E879 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCFF708A1F74E0A000E5E879 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCFF708B1F74E0A000E5E879 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCFF708E1F74E0A000E5E879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCFF70901F74E0A000E5E879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCFF70931F74E0A000E5E879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCFF70951F74E0A000E5E879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFF709A1F74E0A000E5E879 /* YDNStimeButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDNStimeButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFF709E1F74E0A000E5E879 /* YDNStimeButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDNStimeButtonTests.m; sourceTree = "<group>"; };
+		FCFF70A01F74E0A000E5E879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFF70A51F74E0A000E5E879 /* YDNStimeButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDNStimeButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFF70A91F74E0A000E5E879 /* YDNStimeButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDNStimeButtonUITests.m; sourceTree = "<group>"; };
+		FCFF70AB1F74E0A000E5E879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFF70C41F75190E00E5E879 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		FCFF70C51F75190E00E5E879 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCFF707E1F74E0A000E5E879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFF70971F74E0A000E5E879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFF70A21F74E0A000E5E879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC95FAF61F78E3D9004D73DA /* YDNStimeButton */ = {
+			isa = PBXGroup;
+			children = (
+				FC95FAF71F78E3D9004D73DA /* YDNStimeButton.h */,
+				FC95FAF81F78E3D9004D73DA /* YDNStimeButton.m */,
+			);
+			path = YDNStimeButton;
+			sourceTree = "<group>";
+		};
+		FCFF70781F74E0A000E5E879 = {
+			isa = PBXGroup;
+			children = (
+				FCFF70831F74E0A000E5E879 /* YDNStimeButton */,
+				FCFF709D1F74E0A000E5E879 /* YDNStimeButtonTests */,
+				FCFF70A81F74E0A000E5E879 /* YDNStimeButtonUITests */,
+				FCFF70821F74E0A000E5E879 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCFF70821F74E0A000E5E879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF70811F74E0A000E5E879 /* YDNStimeButton.app */,
+				FCFF709A1F74E0A000E5E879 /* YDNStimeButtonTests.xctest */,
+				FCFF70A51F74E0A000E5E879 /* YDNStimeButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFF70831F74E0A000E5E879 /* YDNStimeButton */ = {
+			isa = PBXGroup;
+			children = (
+				FC95FAF61F78E3D9004D73DA /* YDNStimeButton */,
+				FCFF70871F74E0A000E5E879 /* AppDelegate.h */,
+				FCFF70881F74E0A000E5E879 /* AppDelegate.m */,
+				FCFF708A1F74E0A000E5E879 /* ViewController.h */,
+				FCFF708B1F74E0A000E5E879 /* ViewController.m */,
+				FCFF708D1F74E0A000E5E879 /* Main.storyboard */,
+				FCFF70901F74E0A000E5E879 /* Assets.xcassets */,
+				FCFF70921F74E0A000E5E879 /* LaunchScreen.storyboard */,
+				FCFF70951F74E0A000E5E879 /* Info.plist */,
+				FCFF70841F74E0A000E5E879 /* Supporting Files */,
+				FCFF70C41F75190E00E5E879 /* ViewController2.h */,
+				FCFF70C51F75190E00E5E879 /* ViewController2.m */,
+			);
+			path = YDNStimeButton;
+			sourceTree = "<group>";
+		};
+		FCFF70841F74E0A000E5E879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF70851F74E0A000E5E879 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCFF709D1F74E0A000E5E879 /* YDNStimeButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF709E1F74E0A000E5E879 /* YDNStimeButtonTests.m */,
+				FCFF70A01F74E0A000E5E879 /* Info.plist */,
+			);
+			path = YDNStimeButtonTests;
+			sourceTree = "<group>";
+		};
+		FCFF70A81F74E0A000E5E879 /* YDNStimeButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF70A91F74E0A000E5E879 /* YDNStimeButtonUITests.m */,
+				FCFF70AB1F74E0A000E5E879 /* Info.plist */,
+			);
+			path = YDNStimeButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCFF70801F74E0A000E5E879 /* YDNStimeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFF70AE1F74E0A000E5E879 /* Build configuration list for PBXNativeTarget "YDNStimeButton" */;
+			buildPhases = (
+				FCFF707D1F74E0A000E5E879 /* Sources */,
+				FCFF707E1F74E0A000E5E879 /* Frameworks */,
+				FCFF707F1F74E0A000E5E879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDNStimeButton;
+			productName = YDNStimeButton;
+			productReference = FCFF70811F74E0A000E5E879 /* YDNStimeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCFF70991F74E0A000E5E879 /* YDNStimeButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFF70B11F74E0A000E5E879 /* Build configuration list for PBXNativeTarget "YDNStimeButtonTests" */;
+			buildPhases = (
+				FCFF70961F74E0A000E5E879 /* Sources */,
+				FCFF70971F74E0A000E5E879 /* Frameworks */,
+				FCFF70981F74E0A000E5E879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFF709C1F74E0A000E5E879 /* PBXTargetDependency */,
+			);
+			name = YDNStimeButtonTests;
+			productName = YDNStimeButtonTests;
+			productReference = FCFF709A1F74E0A000E5E879 /* YDNStimeButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCFF70A41F74E0A000E5E879 /* YDNStimeButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFF70B41F74E0A000E5E879 /* Build configuration list for PBXNativeTarget "YDNStimeButtonUITests" */;
+			buildPhases = (
+				FCFF70A11F74E0A000E5E879 /* Sources */,
+				FCFF70A21F74E0A000E5E879 /* Frameworks */,
+				FCFF70A31F74E0A000E5E879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFF70A71F74E0A000E5E879 /* PBXTargetDependency */,
+			);
+			name = YDNStimeButtonUITests;
+			productName = YDNStimeButtonUITests;
+			productReference = FCFF70A51F74E0A000E5E879 /* YDNStimeButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCFF70791F74E0A000E5E879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "黄亚栋";
+				TargetAttributes = {
+					FCFF70801F74E0A000E5E879 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4W968SQ9NT;
+						ProvisioningStyle = Automatic;
+					};
+					FCFF70991F74E0A000E5E879 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCFF70801F74E0A000E5E879;
+					};
+					FCFF70A41F74E0A000E5E879 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCFF70801F74E0A000E5E879;
+					};
+				};
+			};
+			buildConfigurationList = FCFF707C1F74E0A000E5E879 /* Build configuration list for PBXProject "YDNStimeButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCFF70781F74E0A000E5E879;
+			productRefGroup = FCFF70821F74E0A000E5E879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCFF70801F74E0A000E5E879 /* YDNStimeButton */,
+				FCFF70991F74E0A000E5E879 /* YDNStimeButtonTests */,
+				FCFF70A41F74E0A000E5E879 /* YDNStimeButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCFF707F1F74E0A000E5E879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFF70941F74E0A000E5E879 /* LaunchScreen.storyboard in Resources */,
+				FCFF70911F74E0A000E5E879 /* Assets.xcassets in Resources */,
+				FCFF708F1F74E0A000E5E879 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFF70981F74E0A000E5E879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFF70A31F74E0A000E5E879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCFF707D1F74E0A000E5E879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFF708C1F74E0A000E5E879 /* ViewController.m in Sources */,
+				FC95FAF91F78E3D9004D73DA /* YDNStimeButton.m in Sources */,
+				FCFF70C61F75190E00E5E879 /* ViewController2.m in Sources */,
+				FCFF70891F74E0A000E5E879 /* AppDelegate.m in Sources */,
+				FCFF70861F74E0A000E5E879 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFF70961F74E0A000E5E879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFF709F1F74E0A000E5E879 /* YDNStimeButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFF70A11F74E0A000E5E879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFF70AA1F74E0A000E5E879 /* YDNStimeButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCFF709C1F74E0A000E5E879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFF70801F74E0A000E5E879 /* YDNStimeButton */;
+			targetProxy = FCFF709B1F74E0A000E5E879 /* PBXContainerItemProxy */;
+		};
+		FCFF70A71F74E0A000E5E879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFF70801F74E0A000E5E879 /* YDNStimeButton */;
+			targetProxy = FCFF70A61F74E0A000E5E879 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCFF708D1F74E0A000E5E879 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFF708E1F74E0A000E5E879 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCFF70921F74E0A000E5E879 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFF70931F74E0A000E5E879 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCFF70AC1F74E0A000E5E879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCFF70AD1F74E0A000E5E879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCFF70AF1F74E0A000E5E879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4W968SQ9NT;
+				INFOPLIST_FILE = YDNStimeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HYD.YDNStimeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCFF70B01F74E0A000E5E879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4W968SQ9NT;
+				INFOPLIST_FILE = YDNStimeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HYD.YDNStimeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCFF70B21F74E0A000E5E879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YDNStimeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HYD.YDNStimeButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YDNStimeButton.app/YDNStimeButton";
+			};
+			name = Debug;
+		};
+		FCFF70B31F74E0A000E5E879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YDNStimeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HYD.YDNStimeButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YDNStimeButton.app/YDNStimeButton";
+			};
+			name = Release;
+		};
+		FCFF70B51F74E0A000E5E879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YDNStimeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HYD.YDNStimeButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YDNStimeButton;
+			};
+			name = Debug;
+		};
+		FCFF70B61F74E0A000E5E879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YDNStimeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HYD.YDNStimeButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YDNStimeButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCFF707C1F74E0A000E5E879 /* Build configuration list for PBXProject "YDNStimeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFF70AC1F74E0A000E5E879 /* Debug */,
+				FCFF70AD1F74E0A000E5E879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFF70AE1F74E0A000E5E879 /* Build configuration list for PBXNativeTarget "YDNStimeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFF70AF1F74E0A000E5E879 /* Debug */,
+				FCFF70B01F74E0A000E5E879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFF70B11F74E0A000E5E879 /* Build configuration list for PBXNativeTarget "YDNStimeButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFF70B21F74E0A000E5E879 /* Debug */,
+				FCFF70B31F74E0A000E5E879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFF70B41F74E0A000E5E879 /* Build configuration list for PBXNativeTarget "YDNStimeButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFF70B51F74E0A000E5E879 /* Debug */,
+				FCFF70B61F74E0A000E5E879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCFF70791F74E0A000E5E879 /* Project object */;
+}
